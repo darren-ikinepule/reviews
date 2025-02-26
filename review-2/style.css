@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-image-container: #12ee56;
+  --background-body: #141414;
+  --text-color: white;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: #141414;
+  color: white;
+}
+
+img {
+  width: 300px;
+  height: auto;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  font-size: 2em;
+  padding: 16px;
+  margin: 16px auto;
+}
+
+
+.emojis-wrapper {
+  margin: 0 16px;
+}
+
+
+a {
+  color: white;
+  font-size: 2em;
+  padding: 16px;
+  margin: 16px;
+}
+
+.pizza-img {
+  border: 10px solid #12ee56;
+  border-radius: 1em;
+}
+
+form {
+  margin: 20px 0;
+}
+label, input {
+  margin: 20px 0px;
+  font-size: 1.5em;
+}
+
+.submit {
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 1.2em;
+  cursor: pointer;
+}

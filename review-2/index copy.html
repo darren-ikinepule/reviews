@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form HTML</title>
+  </head>
+
+  <body>
+    <form action="http://requestbin.whapi.cloud/19iv8qd1" method="POST">
+      <div>
+        <label for="fname">first name:</label>
+        <input type="text" id="fname" name="fname" placeholder="fname" required />
+      </div>
+      <br />
+
+      <div>
+        <label for="lname">last name:</label>
+        <input type="text" id="lname" name="lname" placeholder="lname" required />
+
+      </div>
+      <br />
+
+      <div>
+        <label for="pass">password:</label>
+        <input type="pass" id="pass" name="pass" placeholder="password" maxlength="12" required />
+      </div>
+      <br>
+
+      <div>
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" placeholder="password"required/>
+      </div>
+      <br>
+
+      <div>
+        <label for="phone">Phone #:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+64 20202020">
+      </div>
+      <br>
+      <div>
+        <label for="bdate">birthdate:</label>
+        <input type="date" id="bdate" name="bdate">
+      </div>
+      <br>
+
+      <div>
+        <label for="quantity">quantity: </label>
+        <input type="number" id="quantity" name="quantity" min="0" max="99">
+      </div>
+      <div>
+        <input type="reset" />
+      </div>
+      <br />
+      <div>
+        <input type="submit" />
+      </div>
+      <br />
+    </form>
+  </body>
+</html>

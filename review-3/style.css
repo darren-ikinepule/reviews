@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+image {
+  max-width: 100%;
+  height: auto;
+}
+
+.first-container img,
+.second-container img,
+.third-container img,
+.fourth-container img,
+.fifth-container img,
+.sixth-container img,
+.seventh-container img {
+  width: 100px;
+}
+
+.flex {
+  display: flex;
+  width: 100vw;
+}
+
+.pink {
+  border: 2px solid pink;
+}
+
+.first-container {
+  width: 100vw;
+}
+
+.first-container .image-item {
+  display: flex;
+}
+.second-container {
+  width: 100vw;
+}
+
+.second-container .image-item {
+ display: flex;
+  gap: 16px;
+}
+.third-container {
+  flex-direction: column;
+}
+
+.third-container .image-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.fourth-container {
+  flex-direction: column;
+}
+
+.fourth-container .image-item {
+  display: flex;
+  justify-content: space-around;
+}
+.fifth-container {
+  flex-direction: column;
+}
+
+.fifth-container .image-item {
+  display: flex;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.sixth-container {
+  flex-direction: column;
+}
+
+.sixth-container .image-item {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+}
+.seventh-container {
+    display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
+
+.seventh-container .image-item {
+  margin-right: 20px;
+  gap: 16px;
+}
